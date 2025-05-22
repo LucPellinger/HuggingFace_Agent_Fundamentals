@@ -1,0 +1,21 @@
+markdownify
+smolagents==1.13.0
+smolagents[litellm]
+requests
+duckduckgo_search
+pandas
+
+python-docx
+docx2pdf
+pytz
+gradio
+# Dependencies for the "agents-course/text-to-image" tool
+diffusers
+transformers
+torch
+invisible_watermark # Often a dependency for stable diffusion
+accelerate          # Often a dependency for stable diffusion
+pillow              # Often needed for image processing by diffusers/PIL
+
+# For Gemini
+google-generativeai
